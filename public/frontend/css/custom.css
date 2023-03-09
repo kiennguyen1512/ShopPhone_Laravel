@@ -1,0 +1,44 @@
+.product__details__option {
+	margin-bottom: 30px;
+}
+
+.product__details__option__size {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.product__details__option__size span {
+	color: #111111;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.product__details__option__size label {
+	color: #4438f1;
+	font-size: 15px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 700;
+	/* text-transform: none; */
+	display: inline-block;
+	border: 1px solid #e5e5e5;
+	padding: 6px 15px;
+	margin-bottom: 0;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.product__details__option__size label.active {
+	background: #111111;
+	color: #ffffff;
+	border-color: #111111;
+}
+
+.product__details__option__size label input {
+	position: absolute;
+	visibility: hidden;
+}
+.product__details__option__size {
+		display: block;
+		margin-right: 0;
+		margin-bottom: 25px;
+	}
